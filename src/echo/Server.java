@@ -13,7 +13,7 @@ public class Server {
 		ServerSocket serverSocket = new ServerSocket();
 
 		//바인딩
-		serverSocket.bind(new InetSocketAddress("192.168.0.43", 10001));
+		serverSocket.bind(new InetSocketAddress("192.168.0.80", 10001));
 
 		//서버시작
 		System.out.println("<서버시작>");
